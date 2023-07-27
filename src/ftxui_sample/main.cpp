@@ -340,7 +340,7 @@ int main(int argc, const char **argv)
     if (is_turn_based) {
       consequence_game();
     } else {
-      game_iteration_canvas();
+      //game_iteration_canvas();
     }
 
   } catch (const std::exception &e) {

@@ -3,6 +3,7 @@ build/
 out/
 cmake-build-*/
 conan-cache/
+Testing/
 
 # User spesific settings
 CMakeUserPresets.json
@@ -32,3 +33,6 @@ $RECYCLE.BIN/
 .TemporaryItems
 ehthumbs.db
 Thumbs.db
+
+# Setup
+setup_cpp_linux
