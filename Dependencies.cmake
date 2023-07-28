@@ -40,4 +40,12 @@ function(networking_setup_dependencies)
     cpmaddpackage("gh:lefticus/tools#update_build_system")
   endif()
 
+  if(NOT TARGET asio::asio)
+    cpmaddpackage(
+    NAME asiocmake
+    GIT_REPOSITORY "https://github.com/OlivierLDff/asio.cmake"
+    GIT_TAG "main"
+    )
+  endif()
+
 endfunction()

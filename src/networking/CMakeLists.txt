@@ -10,6 +10,7 @@ target_link_system_libraries(
   PRIVATE
           fmt::fmt
           spdlog::spdlog
+          asio::asio
           )
 
 target_include_directories(networking PRIVATE "${CMAKE_BINARY_DIR}/configured_files/include")
