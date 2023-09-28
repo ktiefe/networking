@@ -25,7 +25,6 @@ project(
 include(cmake/PreventInSourceBuilds.cmake)
 include(ProjectOptions.cmake)
 
-
 networking_setup_options()
 
 networking_global_options()
